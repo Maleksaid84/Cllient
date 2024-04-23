@@ -1,0 +1,219 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(180deg, #e09a44, rgba(250, 247, 245, 0.1) 90%);
+}
+.Footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Footer-logo p{
+    color: rgb(29, 2, 2);
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Cherry Swash', cursive;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    color: rgb(24, 3, 3);
+    font-size: 20px;
+
+}
+.footer-links li{
+    cursor: pointer;
+    font-family: 'Cherry Swash', cursive;
+
+}
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: rgb(241, 241, 235);
+    border: 1px solid rgb(50, 33, 12);
+
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgb(5, 39, 2);
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 88%;
+    border:none ;
+    border-radius: 10px;
+    height: 3px;
+    background: green;
+
+}
+.Footer-logo img {
+    width: 150px;
+}
+
+@media(max-width:800px) {
+    .Footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background: linear-gradient(180deg, #e09a44, rgba(250, 247, 245, 0.1) 90%);
+    }
+    .Footer-logo{
+        height: 50px;
+        padding-top: 45px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .Footer-logo p{
+        color: rgb(29, 2, 2);
+        font-size: 25px;
+        font-weight: 400;
+        font-family: 'Cherry Swash', cursive;
+    }
+    .footer-links{
+        display: flex;
+        list-style: none;
+        gap:30px;
+        color: rgb(24, 3, 3);
+        font-size: 15px;
+    
+    }
+    .footer-links li{
+        cursor: pointer;
+        font-family: 'Cherry Swash', cursive;
+    
+    }
+    .footer-social-icon{
+        display: flex;
+        gap: 10px;
+        scale: 1;
+    }
+    .footer-icons-container{
+        padding: 10px;
+        padding-bottom: 6px;
+        background: rgb(241, 241, 235);
+        border: 1px solid rgb(50, 33, 12);
+    
+    }
+    .footer-copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        margin-bottom: 40px;
+        color: rgb(222, 234, 221);
+        font-size: 20px;
+    }
+    .footer-copyright hr{
+        width: 88%;
+        border:none ;
+        border-radius: 10px;
+        height: 3px;
+        background: green;
+    
+    }
+    .Footer-logo img {
+        width: 150px;
+    }
+    
+
+}
+
+@media(max-width:412px) {
+    .Footer{
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background: linear-gradient(180deg, #e09a44, rgba(250, 247, 245, 0.1) 90%);
+    }
+    .Footer-logo{
+        height: 30px;
+        padding-top: 35px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 45px;
+    }
+    .Footer-logo p{
+        color: rgb(29, 2, 2);
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Cherry Swash', cursive;
+    }
+    .Footer-logo img{
+       height: 50px;
+       width: 50px;
+    }
+    .footer-links{
+        display: flex;
+        list-style: none;
+        gap:30px;
+        color: rgb(24, 3, 3);
+        font-size: 15px;
+      
+    
+    }
+    .footer-links li{
+        cursor: pointer;
+        font-family: 'Cherry Swash', cursive;
+        align-items: center;
+        padding-left: 10px;
+        gap:3px;
+    
+    }
+    .footer-social-icon{
+        display: flex;
+        gap: 10px;
+        scale: 0.6;
+    }
+    .footer-icons-container{
+        padding: 10px;
+        padding-bottom: 6px;
+        background: rgb(241, 241, 235);
+        border: 1px solid rgb(50, 33, 12);
+        margin-bottom: 10px;
+    
+    }
+    .footer-copyright p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        margin-bottom: 80px;
+        color: rgb(222, 234, 221);
+        font-size: 12px;
+        margin-bottom: 230px;
+    }
+    .footer-copyright hr{
+        height: 1px;
+        border:none ;
+        background: green;
+        margin-top: 20px;
+    
+    }
+  
+
+}

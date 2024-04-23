@@ -1,0 +1,99 @@
+.Items{
+
+ width:280px;
+ font-weight: 600;
+ background-color: rgb(154, 154, 209);
+ border: white solid;
+ opacity: 0.8;
+}
+.Items img{
+    width: 280px;
+    border-radius: 35px;
+}
+.Items img :hover{
+    width: 280px;
+    border-radius: 35px;
+   
+}
+.Items p{
+
+margin: 6px 6px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Items :hover{
+transform: scale(1.05);
+transition: 0.6s;
+opacity: 1.9;
+
+}
+.Items-prices{
+
+display: flex;
+gap: 20px;
+}
+.Items-prices-new{
+
+color: brown;
+font-size: 18px;
+font-weight: 600;
+}
+.Items-prices-new{
+
+color: rgb(3, 53, 2);
+font-size: 18px;
+font-weight: 500;
+text-decoration: line-through;
+}
+
+@media(max-width:1280px){
+    .Items{ 
+    width: 220px;
+    font-size: 14px;
+}
+.Items img{
+    width: 220px;
+}
+.Items-prices-old{
+
+    font-size: 14px;
+}
+}
+@media(max-width:1024px){
+    .Items img{
+        width: 170px;
+        
+    }
+    .Items {
+        width: 170px;
+    }
+  .Items-prices-old{
+    font-size: 13px;
+  }  
+
+}
+@media(max-width:800px){
+    .Items img{
+        width: 120px;
+        
+    }
+    .Items {
+        width: 120px;
+        font-size: 12px;
+    }
+  .Items-prices-old{
+    font-size: 12px;
+  }  
+
+}
+@media(max-width:500px){
+    .Items img{
+        width: 160px;
+        
+    }
+    .Items {
+        width: 160px;
+    }
+   
+
+}

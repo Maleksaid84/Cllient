@@ -1,0 +1,162 @@
+.NewsLetter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    margin:auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #8b4c0a 0%, #e8dbcc 60%);
+}
+
+.NewsLetter h1{
+    color :#223f30;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 10 px;
+    font-family: 'Cherry Swash', cursive;
+}
+.NewsLetter p{
+    color : #519872;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
+.NewsLetter div{
+    display: flex;
+    width: 730px; ;
+    height: 70px; ;
+    align-items: center ;
+    justify-content: space-between;
+    background: #fde1ff;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+    margin-top: 40px;
+}
+
+.NewsLetter input {
+    width: 600px;
+    height: 50px;
+    margin-left: 15px; 
+    margin-right: 15px;
+    border:none ;
+    outline: none;
+    color: rgb(28, 28, 13);
+    font-family: Poppins;
+    font-size: 20px;
+    border-radius: 80px;
+}
+.NewsLetter div button {
+    width: 210px;
+    height: 70px;
+    border-radius: 10px;
+    background: #519872;
+    color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+@media( max-width:1280px){
+    .NewsLetter{
+        padding: 0px  80px;
+        margin-bottom: 120px;
+        gap:20px
+    }
+    .NewsLetter h1{
+        font-size: 36px;
+    }
+    .NewsLetter p{
+        font-size: 16px;
+    }
+    .NewsLetter div{
+        width: 600px;
+        height: 60px;
+    }
+    .NewsLetter div input {
+        width: 400px;
+    }
+    .NewsLetter div button {
+        width: 160px;
+        height: 60px;
+    }
+
+}
+@media( max-width:1024px){
+    .NewsLetter{
+        margin-bottom: 60px;
+    }
+    .NewsLetter h1{
+        font-size: 30px;
+    }
+    .NewsLetter p{
+        font-size: 14px;
+    }
+    .NewsLetter div{
+        width: 500px;
+        height: 50px;
+    }
+    .NewsLetter div input {
+        width: 300px;
+        font-size: 14px;
+    }
+    .NewsLetter div button {
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+}
+@media( max-width:800px){
+    .NewsLetter{
+        margin-bottom: 30px;
+        height: 35vh;
+    }
+    .NewsLetter h1{
+        font-size: 18px;
+    }
+    .NewsLetter p{
+        font-size: 12px;
+    }
+    .NewsLetter div{
+        width: 400px;
+        height: 40px;
+    }
+    .NewsLetter div input {
+        width: 200px;
+        font-size: 13px;
+    }
+    .NewsLetter div button {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+}
+@media( max-width:500px){
+    .NewsLetter{
+        
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap:15px;
+    }
+    .NewsLetter h1{
+        font-size: 16px;
+    }
+    .NewsLetter p{
+        font-size: 13px;
+        min-width: 200px;
+        text-align: center;
+    }
+    .NewsLetter div{
+        width: 290px;
+    }
+    .NewsLetter div input {
+        width: 130px;
+    }
+  
+}
