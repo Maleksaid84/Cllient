@@ -11,7 +11,7 @@ const newCollectionsRef = useRef(null);
 
   useEffect(() => {
     
-    axios.get('http://localhost:3090/newCollections')
+    axios.get('https://malek.onrender.com/newCollections')
     
       .then(response => {
       

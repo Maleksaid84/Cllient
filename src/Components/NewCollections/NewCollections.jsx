@@ -9,7 +9,7 @@ const NewCollections = () => {
     
 
       useEffect (()=> {
-        fetch('http://localhost:3090/newcollections')
+        fetch('https://malek.onrender.com/newcollections')
 
         .then((response)=> response.json())
         .then ((data)=> setNew_collection(data));

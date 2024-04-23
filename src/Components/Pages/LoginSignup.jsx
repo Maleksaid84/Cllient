@@ -16,7 +16,7 @@ const LoginSignup = () => {
   const login = async () => {
     console.log("Login Function executed", formData);
     let responseData;
-    await fetch('http://localhost:3090/login', {
+    await fetch('https://malek.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -37,7 +37,7 @@ const LoginSignup = () => {
   const signup = async () => {
     console.log("Sign Up Function executed", formData);
     let responseData;
-    await fetch('http://localhost:3090/signup', {
+    await fetch('https://malek.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

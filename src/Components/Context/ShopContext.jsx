@@ -12,7 +12,7 @@ const ShopContextProvider = (props) => {
 
     // Récupérer tous les produits depuis le backend
 
-        fetch('http://localhost:3090/allproducts')
+        fetch('https://malek.onrender.com/allproducts')
             .then((response) => response.json())
             .then((data) => {
                 setAll_product(data);
@@ -42,7 +42,7 @@ const ShopContextProvider = (props) => {
     // Appel à l'API pour ajouter l'élément au panier côté serveur
 
         if (localStorage.getItem('auth-token')) {
-            fetch('http://localhost:3090/addtocart', {
+            fetch('https://malek.onrender.com/addtocart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
@@ -66,7 +66,7 @@ const ShopContextProvider = (props) => {
     // Appel à l'API pour retirer l'élément du panier côté serveur
 
             if (localStorage.getItem('auth-token')) {
-                fetch('http://localhost:3090/removefromcart', {
+                fetch('https://malek.onrender.com/removefromcart', {
                     method: 'POST',
                     headers: {
                         Accept: 'application/json',
