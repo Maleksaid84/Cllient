@@ -160,3 +160,30 @@
     }
   
 }
+@media( max-width:412px){
+    .NewsLetter{
+        
+        height: 23vh;
+        width: 100%;
+        padding: 0;
+        gap:15px;
+    }
+    .NewsLetter h1{
+        font-size: 16px;
+        color: #cedbd4;
+    }
+    .NewsLetter p{
+        font-size: 13px;
+        min-width: 200px;
+        text-align: center;
+        color: rgb(44, 45, 47);
+    }
+    .NewsLetter div{
+        width: 290px;
+    }
+    .NewsLetter div input {
+        width: 150px;
+        height: 20px;
+    }
+  
+}

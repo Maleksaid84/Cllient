@@ -1,4 +1,5 @@
 .Footer{
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +14,7 @@
 }
 .Footer-logo p{
     color: rgb(29, 2, 2);
-    font-size: 46px;
+    font-size: 35px;
     font-weight: 700;
     font-family: 'Cherry Swash', cursive;
 }
@@ -48,7 +49,7 @@
     gap: 30px;
     width: 100%;
     margin-bottom: 30px;
-    color: rgb(5, 39, 2);
+    color: rgb(238, 240, 238);
     font-size: 20px;
 }
 .footer-copyright hr{
@@ -137,83 +138,48 @@
 
 }
 
-@media(max-width:412px) {
-    .Footer{
-        max-width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        background: linear-gradient(180deg, #e09a44, rgba(250, 247, 245, 0.1) 90%);
-    }
-    .Footer-logo{
-        height: 30px;
-        padding-top: 35px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 45px;
-    }
-    .Footer-logo p{
-        color: rgb(29, 2, 2);
-        font-size: 15px;
-        font-weight: 300;
-        font-family: 'Cherry Swash', cursive;
-    }
-    .Footer-logo img{
-       height: 50px;
-       width: 50px;
-    }
-    .footer-links{
-        display: flex;
-        list-style: none;
-        gap:30px;
-        color: rgb(24, 3, 3);
-        font-size: 15px;
-      
-    
-    }
-    .footer-links li{
-        cursor: pointer;
-        font-family: 'Cherry Swash', cursive;
-        align-items: center;
-        padding-left: 10px;
-        gap:3px;
-    
-    }
-    .footer-social-icon{
-        display: flex;
-        gap: 10px;
-        scale: 0.6;
-    }
-    .footer-icons-container{
-        padding: 10px;
-        padding-bottom: 6px;
-        background: rgb(241, 241, 235);
-        border: 1px solid rgb(50, 33, 12);
-        margin-bottom: 10px;
-    
-    }
-    .footer-copyright p{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        width: 100%;
-        margin-bottom: 80px;
-        color: rgb(222, 234, 221);
-        font-size: 12px;
-        margin-bottom: 230px;
-    }
-    .footer-copyright hr{
-        height: 1px;
-        border:none ;
-        background: green;
-        margin-top: 20px;
-    
-    }
-  
 
+@media only screen and (max-width: 414px) {
+    .Footer {
+        gap: 20px; 
+    }
+
+    .Footer-logo p {
+        font-size: 10px; 
+    }
+
+    .footer-links {
+        font-size: 12px; 
+        padding-left: 10px;
+        gap:12px;
+        padding-top: 10px;
+    }
+
+    .footer-copyright {
+        gap: 10px; 
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .Footer {
+        gap: 20px; 
+    }
+
+    .Footer-logo p {
+        font-size: 10px; 
+    }
+
+    .footer-links {
+        font-size: 12px; 
+        padding-left: 10px;
+        gap:12px;
+        padding-top: 10px;
+    }
+
+    .footer-copyright {
+        gap: 10px; 
+        font-size: 10px;
+        font-weight: 200;
+    }
 }

@@ -12,7 +12,7 @@ const NewCollections = () => {
         fetch('https://malek.onrender.com/newcollections')
 
         .then((response)=> response.json())
-        .then ((data)=> setNew_collection(data));
+        .then ((data)=> setNew_collection(data.slice(0, 4)));
 
         
 

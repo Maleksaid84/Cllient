@@ -1,0 +1,11 @@
+/* Appliquer des marges réduites entre les composants */
+.home > * {
+    margin-bottom: 5px; 
+    
+  }
+  
+  /* Appliquer une marge réduite entre les composants Popular et PopularMan */
+  .popular + .popular-man {
+    margin-top: 1500px; /* Ajustez la valeur de la marge selon vos besoins */
+  }
+  

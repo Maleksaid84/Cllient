@@ -22,7 +22,7 @@ const Hero = () => {
 
          <div className="hero-hand-icon">
             <p>New</p>
-            <img src={hand_icon} alt='' />
+            <img className='arrow' src={hand_icon} alt='' />
             </div>
             <p>Products</p>
             <p>For everyone</p>
@@ -36,7 +36,7 @@ const Hero = () => {
 
         <div className="hero-right">
           <CarrouselNewProducts/>
-          <img className='camper' src={hero_image} alt="" />
+          
 
         </div>
     </div>

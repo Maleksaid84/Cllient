@@ -5,7 +5,7 @@ import Offers from '../Offers/Offers'
 import NewCollections from '../NewCollections/NewCollections'
 import NewsLetter from '../NewsLetter/NewsLetter'
 import PopularMan from '../Popular/PopularMan'
-
+import  './css/home.css'
 
 
 
@@ -13,7 +13,7 @@ import PopularMan from '../Popular/PopularMan'
 
 const Shop = () => {
   return (
-    <div>
+    <div className='home'>
       <Hero    />
       <Popular />
       <PopularMan/>

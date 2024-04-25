@@ -17,30 +17,33 @@
 }  
 .shopcategory-sort{
      padding: 10px 20px;
-     border-radius: 40px;
+     border-radius: 30px;
      border: 1px solid #4c0505;
      width: 150px;
-    background: #c57070;
+     background: #c57070;
      text-align: center;
-     height: 50px;
-     font-size: 25px;
+     height: 30px;
+     font-size: 30px;
      font-weight: 600;
 }
 
 .sort-product-selector{
 
-    height: 50px;
+    height: 30px;
     width: 100px;
     padding-left: 15px;
     background: #b18c8c;
     border: 1px solid #4c0505;
-    border-radius: 40px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
     
 }
 .shopcategory-indexSort p span {
      font-weight: 600;
+     
 }
 .shopcategory-products {
+    padding-top: 35px;
     margin: 20px 170px ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -115,3 +118,77 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (max-width: 412px) 
+{
+    .shopcategory-banner,
+    .shopcategory-products,
+    .shopcategory-loadmore {
+        width: 100%; 
+        margin: 10px;
+         
+    }
+    
+    .shopcategory-banner {
+        padding-top: 50px;
+        margin: 10px auto; /* Centrez la bannière */
+    }
+
+    .shopcategory-products {
+        row-gap: 20px; 
+        margin: 0px auto;
+        margin-left: -8px;
+        transform: scale(0.9);
+        }
+
+    .shopcategory-loadmore {
+        margin: 10px auto; 
+        width: 100px;
+        height: 50px;
+        margin: 0px auto; /* Pour centrer horizontalement */
+    
+    position: relative; /* Définissez la position sur relative pour pouvoir utiliser top */
+    top: -20px;
+    }
+    .shopcategory-sort{
+        transform: scale(0.7);
+    }
+     
+}
+@media (max-width: 375px) 
+{
+    .shopcategory-banner,
+    .shopcategory-products,
+    .shopcategory-loadmore {
+        width: 100%; 
+        
+         
+    }
+    
+    .shopcategory-banner {
+        padding-top: 50px;
+        margin: 10px auto; /* Centrez la bannière */
+    }
+
+    .shopcategory-products {
+        row-gap: 20px; 
+        margin: 0px auto;
+        margin-left: -8px;
+        transform: scale(0.9);
+        }
+
+    .shopcategory-loadmore {
+        margin: 10px auto; 
+        width: 100px;
+        height: 50px;
+        margin: 0px auto; /* Pour centrer horizontalement */
+    
+    position: relative; /* Définissez la position sur relative pour pouvoir utiliser top */
+    top: -20px;
+    }
+    .shopcategory-sort{
+        transform: scale(0.7);
+    }
+     
+}
+
+
